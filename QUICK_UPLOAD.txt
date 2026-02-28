@@ -1,0 +1,106 @@
+# 🚀 Quick Upload Reference Card
+
+## The 3 Commands You Need
+
+### Command 1: Create GitHub Repository
+Go to: **https://github.com/new**
+- Name: `skypath`
+- Visibility: **Public**
+- Click: Create repository
+- Copy the HTTPS URL
+
+### Command 2: Add Remote & Push
+```bash
+cd C:\Users\Amishraj\OneDrive\Desktop\projects\SkyPath
+
+git remote add origin https://github.com/YOUR_USERNAME/skypath.git
+git branch -M main
+git push -u origin main
+```
+
+### Command 3: Authenticate
+When prompted:
+- **Username:** Your GitHub username
+- **Password:** Your Personal Access Token
+  - Get it at: https://github.com/settings/tokens
+  - Click "Generate new token"
+  - Select `repo` scope
+  - Copy & paste in terminal
+
+## Done! 🎉
+
+Visit: `https://github.com/YOUR_USERNAME/skypath`
+
+---
+
+## What Gets Uploaded
+
+✅ All 16 Java files
+✅ Documentation (6 files)
+✅ Data (flights.json)
+✅ Configuration (.gitignore, etc)
+✅ Commit history (3 commits)
+
+❌ NOT uploaded (in .gitignore):
+- out/ (compiled files)
+- .idea/ (IDE cache)
+- *.class files
+
+---
+
+## Verify It Worked
+
+Your GitHub page should show:
+1. ✅ Repository name: skypath
+2. ✅ Public visibility
+3. ✅ 3 commits in history
+4. ✅ README.md displaying
+5. ✅ All source files visible
+6. ✅ LICENSE file shown
+7. ✅ CONTRIBUTING.md link available
+
+---
+
+## Add Polish (Optional)
+
+In GitHub repository **Settings**:
+1. Add description (top right "About" section)
+2. Add topics: java, flight-search, concurrency, etc
+3. Enable Discussions for Q&A
+4. Add website (if you have one)
+
+---
+
+## Share Your Repository
+
+```
+https://github.com/YOUR_USERNAME/skypath
+```
+
+Share this link on:
+- LinkedIn
+- Twitter/X
+- Portfolio website
+- Resume/CV
+- Job applications
+
+---
+
+## Need Help?
+
+See full guide: **GITHUB_UPLOAD_GUIDE.md**
+
+Issues?
+- Check git config: `git config --list`
+- Verify remote: `git remote -v`
+- Check status: `git status`
+- View commits: `git log --oneline`
+
+---
+
+**Time to complete:** 5 minutes ⏱️
+**Difficulty:** Easy ✨
+**Result:** Professional GitHub repository 🚀
+
+Go! 💪
+
